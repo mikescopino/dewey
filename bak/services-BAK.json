@@ -1,0 +1,40 @@
+{
+	"services": [{
+		"index": true,
+		"name": "Our Services",
+		"metaTitle": "Design Consulting Services",
+		"details": "Nonfiction is a team of design specialists who help you successfully launch your digital product."
+	}, {
+		"name": "Experience Audits",
+		"metaTitle": "Product Experience Audits",
+		"timeframe": "1 Week",
+		"details": "Evaluate your existing product experience in advance of updating or adding features.",
+		"features": [
+			"Kickoff and discovery session",
+			"Discovery process evaluates your users' needs, the competitive landscape, and the product's current usability",
+			"Summary of findings and recommendations presented to the stakeholder team"
+		]
+	}, {
+		"name": "Testable Prototypes",
+		"metaTitle": "Testable Prototypes",
+		"timeframe": "4-6 Weeks",
+		"details": "Produce a high-fidelity, scripted prototype for obtaining user feedback or pitching investors.",
+		"features": [
+			"Regularly scheduled working sessions and reviews",
+			"Rapid discovery phase followed by definition and design",
+			"Explore a concept with multiple flows and scenarios",
+			"Interactive web or mobile prototype"
+		]
+	}, {
+		"name": "Agile Product Design",
+		"metaTitle": "Agile Product Design",
+		"timeframe": "4+ Weeks",
+		"details": "Launch your product by engaging Nonfiction in collaboration with your engineering resources.",
+		"features": [
+			"Agile collaboration based on your development workflow",
+			"Iterative discovery, definition, and design phases",
+			"Take a minimum viable approach to resolving all use cases",
+			"Prototypes, specifications, and asset handoff to engineers"
+		]
+	}]
+}

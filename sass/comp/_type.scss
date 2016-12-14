@@ -1,0 +1,251 @@
+p {
+  font-size: $m-paragraph;
+  line-height: 130%;
+  margin-bottom: 1.5rem;
+}
+
+p.caption {
+  font-size: $m-paragraph-alt;
+  line-height: 130%;
+}
+
+p.intro {
+  margin-bottom: 3rem;
+  font-size: $m-paragraph-intro;
+  line-height: 150%;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul.list {
+  margin: 0 0 1rem 0;
+  font-size: $m-paragraph;
+  line-height: 130%;
+
+  li {
+    margin: 0 0 .5rem 0;
+  }
+
+  &.bullets li {
+    margin-left: 1rem;
+    padding-left: .25rem;
+    list-style: disc;
+  }
+
+  &.numbers li {
+    margin-left: 1rem;
+    padding-left: .25rem;
+    list-style: decimal;
+  }
+}
+
+h1,h2,h3,h4 {
+  display: block;
+  font-family: $primary-font;
+  font-weight: inherit;
+}
+
+h1 {
+  margin-bottom: .75em;
+  font-size: $m-heading-1;
+  font-weight: $black;
+  color: $text;
+  line-height: 110%;
+}
+
+h2 {
+  margin-bottom: .5rem;
+  font-size: $m-heading-2;
+  font-weight: $bold;
+  line-height: 110%;
+
+  a {
+    font-weight: $bold;
+    color: $text;
+
+    &:hover {
+      color: $text;
+      text-decoration: none;
+    }
+  }
+
+  small {
+    margin-left: .2rem;
+    font-size: $m-paragraph;
+    color: $text-muted;
+    text-transform: uppercase;
+  }
+}
+
+h3 {
+  margin-bottom: .5rem;
+  font-size: $m-heading-3;
+  font-weight: $black;
+  line-height: 110%;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+
+  a {
+    font-weight: $black;
+  }
+}
+
+a {
+	color: $link;
+  font-weight: $medium;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $link-hover;
+  text-decoration: underline;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+blockquote {
+  margin: 2rem 0 2rem .5rem;
+  padding: .35rem 4rem .5rem 1.5rem;
+  border-left: .25rem solid $rule;
+
+  p:last-child,
+  ul:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/*/////////////////////////////////////////*/
+/* Phone XL */
+/*/////////////////////////////////////////*/
+
+@media #{$media-phone} {
+
+}
+
+/*/////////////////////////////////////////*/
+/* Phablet */
+/*/////////////////////////////////////////*/
+
+@media #{$media-phablet} {
+
+}
+
+
+/*/////////////////////////////////////////*/
+/* Tablet */
+/*/////////////////////////////////////////*/
+
+@media #{$media-tablet} {
+
+}
+
+/*/////////////////////////////////////////*/
+/* Notebook */
+/*/////////////////////////////////////////*/
+
+@media #{$media-notebook} {
+  p {
+    font-size: $d-paragraph;
+    line-height: 130%;
+    margin-bottom: 1.5rem;
+  }
+
+  p.caption {
+    font-size: $d-paragraph-alt;
+    line-height: 130%;
+  }
+
+  p.intro {
+    font-size: $d-paragraph-intro;
+    line-height: 150%;
+  }
+
+  ul.list {
+    margin: 0 0 1rem 0;
+    font-size: $d-paragraph;
+    line-height: 130%;
+
+    li {
+      margin: 0 0 .5rem 0;
+    }
+
+    &.bullets {
+      padding-left: .5rem;
+      list-style: disc;
+    }
+
+    &.numbers {
+      padding-left: .5rem;
+      list-style: decimal;
+    }
+  }
+
+  h1,h2,h3,h4 {
+    display: block;
+    font-family: $primary-font;
+    font-weight: inherit;
+  }
+
+  h1 {
+    margin-bottom: .75em;
+    font-size: $d-heading-1;
+    font-weight: $black;
+    line-height: 110%;
+    text-align: center;
+  }
+
+  h2 {
+    margin-bottom: .75rem;
+    font-size: $d-heading-2;
+    font-weight: $bold;
+    line-height: 110%;
+    text-align: center;
+
+    a {
+      color: $text;
+
+      &:hover {
+        color: $text;
+        text-decoration: none;
+      }
+    }
+
+    small {
+      margin-left: .2rem;
+      font-size: $d-paragraph;
+      color: $text-muted;
+      text-transform: uppercase;
+    }
+  }
+
+  h3 {
+    margin-bottom: .75rem;
+    font-size: $d-heading-3;
+    font-weight: $black;
+    line-height: 110%;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+  }
+
+  .no-wrap {
+    white-space: nowrap;
+  }
+
+  blockquote {
+    padding-right: 8rem;
+  }
+}
+
+/*/////////////////////////////////////////*/
+/* Desktop */
+/*/////////////////////////////////////////*/
+
+@media #{$media-desktop} {
+
+}

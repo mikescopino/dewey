@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{> head}}
+  <body {{bodyClass}}>
+    {{> nav}}
+    {{#if home}}
+      {{> home }}
+    {{else if contact}}
+      {{> contact }}
+    {{else}}
+      {{#if index}}
+        {{> (overview)}}
+      {{else}}
+        {{> (detail)}}
+      {{/if}}
+    {{/if}}
+    {{> scripts}}
+  </body>
+</html>

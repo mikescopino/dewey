@@ -1,0 +1,83 @@
+section {
+  padding: 4rem 0;
+}
+
+.container {
+	padding: 0 .625rem;
+}
+
+.grid {
+
+  &:last-child:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+}
+
+/*/////////////////////////////////////////*/
+/* Phone XL */
+/*/////////////////////////////////////////*/
+
+@media #{$media-phone} {
+
+}
+
+/*/////////////////////////////////////////*/
+/* Phablet */
+/*/////////////////////////////////////////*/
+
+@media #{$media-phablet} {
+
+}
+
+
+/*/////////////////////////////////////////*/
+/* Tablet */
+/*/////////////////////////////////////////*/
+
+@media #{$media-tablet} {
+
+}
+
+/*/////////////////////////////////////////*/
+/* Notebook */
+/*/////////////////////////////////////////*/
+
+@media #{$media-notebook} {
+
+  section {
+    padding: 6rem 0;
+  }
+
+  .container {
+    width: 90%;
+    max-width: $primary-unit * 60;
+    margin: 0 auto;
+  	padding: 0 $primary-unit;
+  }
+
+  .grid {
+
+    &:last-child:after {
+      content: ".";
+      display: block;
+      clear: both;
+      visibility: hidden;
+      line-height: 0;
+      height: 0;
+    }
+  }
+
+}
+
+/*/////////////////////////////////////////*/
+/* Desktop */
+/*/////////////////////////////////////////*/
+
+@media #{$media-desktop} {
+
+}

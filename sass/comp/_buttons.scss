@@ -1,0 +1,142 @@
+a.btn,
+button.btn {
+  display: block;
+  padding: .8375rem 0 1.5rem 0;
+  border: none;
+  border-radius: 5rem;
+  font-family: $primary-font;
+  font-size: $m-paragraph-nav;
+  font-weight: $black;
+  line-height: 100%;
+  letter-spacing: .05rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: $base;
+  background: $link;
+  cursor: pointer;
+
+  &:active,
+  &:focus {
+    color: $base;
+    text-decoration: none;
+  }
+
+  &::selection {
+    color: $base;
+  }
+}
+
+a.btn-alt,
+button.btn-alt {
+  display: block;
+  padding: .8375rem 0 1.5rem 0;
+  font-family: $primary-font;
+  font-size: $m-paragraph-nav;
+  font-weight: $bold;
+  line-height: 100%;
+  letter-spacing: .05rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: darken($link, 5%);
+  cursor: pointer;
+
+  &:active,
+  &:focus,
+  &::selection  {
+    color: darken($link, 5%);
+  }
+}
+
+a.breadcrumb {
+  display: block;
+  color: #ccc;
+}
+
+/*/////////////////////////////////////////*/
+/* Phone XL */
+/*/////////////////////////////////////////*/
+
+@media #{$media-phone} {
+
+}
+
+/*/////////////////////////////////////////*/
+/* Phablet */
+/*/////////////////////////////////////////*/
+
+@media #{$media-phablet} {
+
+}
+
+
+/*/////////////////////////////////////////*/
+/* Tablet */
+/*/////////////////////////////////////////*/
+
+@media #{$media-tablet} {
+
+}
+
+/*/////////////////////////////////////////*/
+/* Notebook */
+/*/////////////////////////////////////////*/
+
+@media #{$media-notebook} {
+  a.btn,
+  button.btn {
+    display: block;
+    padding: .8375rem 2rem;
+    font-size: $d-paragraph-nav;
+    line-height: 100%;
+
+    &:active,
+    &:focus {
+      border-color: $link;
+      background: $link;
+      color: $base;
+      text-decoration: none;
+    }
+
+    &::selection {
+      color: $base;
+    }
+  }
+
+  a.btn-alt,
+  button.btn-alt {
+    display: block;
+    padding: .8375rem 2rem;
+    border: .15rem solid lighten($link, 25%);
+    border-radius: 5rem;
+    font-family: $primary-font;
+    font-size: $d-paragraph-nav;
+    font-weight: $bold;
+    letter-spacing: .05rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: darken($link, 5%);
+
+    &:active,
+    &:focus {
+      border-color: $link;
+      background: $link;
+      color: $base;
+      text-decoration: none;
+    }
+
+    &::selection {
+      color: $base;
+    }
+  }
+}
+
+/*/////////////////////////////////////////*/
+/* Desktop */
+/*/////////////////////////////////////////*/
+
+@media #{$media-desktop} {
+
+}

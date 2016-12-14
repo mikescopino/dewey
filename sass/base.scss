@@ -1,0 +1,84 @@
+/*/////////////////////////////////////////*/
+/* ￼Variables */
+/*/////////////////////////////////////////*/
+
+// Primary unit of 20px in most browsers
+$primary-unit: 1.25rem;
+
+$text: #333;
+$text-alt: #666;
+$text-muted: #999;
+$link: #428bca;
+$link-hover: darken($link, 13%);
+$base: #fff;
+$base-alt: #f9f9f9;
+$dark: #202020;
+$rule: #eee;
+$error: #cc0000;
+
+$primary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Base font size of 16px
+$d-paragraph: 1.1875rem;
+$d-paragraph-alt: 1rem;
+$d-paragraph-caption: .9375rem;
+$d-paragraph-intro: 1.5rem;
+$d-paragraph-nav: .875rem;
+$d-paragraph-spacing: 130%;
+
+$d-heading-0: 4.25rem;
+$d-heading-1: 3.25rem;
+$d-heading-2: 1.5rem;
+$d-heading-3: .9375rem;
+
+$m-paragraph: .9375rem;
+$m-paragraph-alt: .9375rem;
+$m-paragraph-caption: .9375rem;
+$m-paragraph-intro: .9375rem;
+$m-paragraph-nav: .9375rem;
+$m-paragraph-spacing: 130%;
+
+$m-heading-0: 2.5rem;
+$m-heading-1: 1.85rem;
+$m-heading-2: 1.25rem;
+$m-heading-3: .8rem;
+
+$line-length-unit: 36;
+
+$regular: 300;
+$medium: 500;
+$bold: 700;
+$black: 900;
+
+$shadow: 0 2px 5px rgba(0,0,0,.1);
+$shadow-hover: 0 3px 7px rgba(0,0,0,.2);
+
+/* Phone XL 370 */
+$media-phone: "(min-width: 24em)";
+
+/* Phablet 480 */
+$media-phablet: "(min-width: 25em)";
+
+/* Tablet 600 */
+$media-tablet: "(min-width: 38em)";
+
+/* Notebook 760 */
+$media-notebook: "(min-width: 48em)";
+
+/* Desktop 960 */
+$media-desktop: "(min-width: 523em)";
+
+/* Special media query for nav bar */
+$media-nav: "(max-width: 55em)";
+
+
+/*/////////////////////////////////////////*/
+/* Imports */
+/*/////////////////////////////////////////*/
+
+@import './comp/global.scss';
+@import './comp/containers.scss';
+@import './comp/type.scss';
+@import './comp/buttons.scss';
+
+@import './homepage.scss';

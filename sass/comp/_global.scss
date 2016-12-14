@@ -1,0 +1,48 @@
+/*/////////////////////////////////////////*/
+/* Global */
+/*/////////////////////////////////////////*/
+
+html {
+  background: $base;
+}
+
+body {
+	font-family: $primary-font;
+  font-weight: $regular;
+  font-size: $d-paragraph;
+  line-height: $d-paragraph-spacing;
+	color: $text;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+hr {
+  max-width: 100%;
+  height: 1px;
+  margin: 0 auto $primary-unit auto;
+  border: none;
+  background: $rule;
+}
+
+.clear {
+	clear:both;
+	width: 0 !important;
+	height:  0 !important;
+	padding:  0 !important;
+	margin:  0 !important;
+	border: none !important;
+	background: none !important;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
