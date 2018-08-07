@@ -1,27 +1,18 @@
-# Local Environment Setup #
+# Dewey is a static site generator #
+I wanted to be able to create sites and prototypes quickly without building out a full application environment. I did want the benefit of content separated from my HTML, reusable components, and to compile/compress SASS and Javascript files.
+
+Dewey uses Gulp to combine Handlebars templates with JSON data into HTML files. A simple Express server is then used to deliver the files. 
+
+---
+
+## Local Environment Setup ##
 
 Create a local environment to Gulp within.
 
-1. Check for node
-```$ node -v```
-
-if !current:
-```
-$ sudo npm cache clean -f
-$ sudo npm install -g n
-$ sudo npm n stable
-```
-
-2. Check for npm
-```$ npm -v```
-
-if !current:
-```$ sudo npm install npm@latest -g```
-
-3. Install Gulp
+1. Install Gulp
 ```$ sudo npm install -g gulp```
 
-4. Install required plugins
+2. Install required plugins
 ```
 $ sudo npm install gulp-autoprefixer
 $ sudo npm install gulp-compile-handlebars
@@ -43,5 +34,5 @@ $ sudo npm install jshint
 $ sudo npm install nodemailer
 ```
 
-4. Run the server
+3. Run the server
 ```$ gulp```
