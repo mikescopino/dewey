@@ -1,11 +1,11 @@
-# Dewey is a static site generator #
+# Dewey #
 I wanted to be able to create sites and prototypes quickly without building out a full application environment. I did want the benefit of content separated from my HTML, reusable components, and to compile/compress SASS and Javascript files.
 
 Dewey uses Gulp to combine Handlebars templates with JSON data into HTML files. A simple Express server is then used to deliver the files. 
 
 ---
 
-## Local Environment Setup ##
+### Local Environment Setup ###
 
 Create a local environment to Gulp within.
 
