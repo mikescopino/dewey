@@ -1,7 +1,11 @@
 # Dewey #
-I wanted to be able to create sites and prototypes quickly without building out a full application environment. I did want the benefit of content separated from my HTML, reusable components, and to compile/compress SASS and Javascript files.
+I wanted to be able to create sites and prototypes quickly without building out a full application. I wanted to capitalize on:
 
-Dewey uses Gulp to combine Handlebars templates with JSON data into HTML files. A simple Express server is then used to deliver the files. 
+- Content separated from HTML
+- Reusable components
+- Compiling and compressing SASS and Javascript files.
+
+Dewey uses Gulp to combine Handlebars templates with JSON data into HTML files. A simple Express server is then used to deliver the files.
 
 ---
 
@@ -14,24 +18,23 @@ Create a local environment to Gulp within.
 
 2. Install required plugins
 ```
-$ sudo npm install gulp-autoprefixer
-$ sudo npm install gulp-compile-handlebars
-$ sudo npm install gulp-concat
-$ sudo npm install gulp-connect
-$ sudo npm install gulp-jshint
-$ sudo npm install gulp-jsonlint
-$ sudo npm install gulp-live-server
-$ sudo npm install gulp-merge-json
-$ sudo npm install gulp-rename
-$ sudo npm install gulp-sass
-$ sudo npm install gulp-uglify
-$ sudo npm install gulp-util
-
-$ sudo npm install express
-$ sudo npm install body-parser
-$ sudo npm install gulp
-$ sudo npm install jshint
-$ sudo npm install nodemailer
+npm install body-parser
+npm install express
+npm install gulp
+npm install gulp-autoprefixer
+npm install gulp-compile-handlebars
+npm install gulp-concat
+npm install gulp-connect
+npm install jshint
+npm install gulp-jshint
+npm install gulp-jsonlint
+npm install gulp-live-server
+npm install gulp-merge-json
+npm install gulp-rename
+npm install gulp-sass
+npm install gulp-uglify
+npm install ansi-colors
+npm install fancy-log
 ```
 
 3. Run the server

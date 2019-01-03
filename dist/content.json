@@ -3,5 +3,10 @@
 		"name": "Dewey",
 		"description": "A testable prototype template.",
 		"metaTitle": "Dewey"
+	},
+	"page": {
+		"name": "Page",
+		"description": "A testable prototype template.",
+		"metaTitle": "Page"
 	}
 }

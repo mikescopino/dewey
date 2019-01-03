@@ -1,27 +1,32 @@
 {
   "name": "dewey",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "devDependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
+    "ansi-colors": "^1.1.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^3.1.1",
     "gulp-compile-handlebars": "^0.6.1",
-    "gulp-concat": "^2.6.0",
-    "gulp-connect": "^4.1.0",
-    "gulp-jshint": "^2.0.1",
-    "gulp-jsonlint": "^1.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^4.2.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-jsonlint": "^1.2.2",
     "gulp-live-server": "0.0.30",
     "gulp-merge-json": "^0.6.0",
-    "gulp-rename": "^1.2.2",
+    "gulp-rename": "^1.4.0",
     "gulp-sass": "^2.3.2",
-    "gulp-uglify": "^2.0.0",
-    "jshint": "^2.9.3",
-    "nodemailer": "^2.5.0"
+    "gulp-uglify": "^2.1.2",
+    "jshint": "^2.9.7",
+    "nodemailer": "^2.7.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://mikescopino@bitbucket.org/mikescopino/dewey.git"
+    "url": "https://github.com/mikescopino/dewey.git"
   },
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "http-proxy-middleware": "^0.19.1"
+  }
 }
