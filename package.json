@@ -13,10 +13,10 @@
     "gulp-connect": "^4.2.0",
     "gulp-jshint": "^2.1.0",
     "gulp-jsonlint": "^1.2.2",
-    "gulp-live-server": "0.0.30",
+    "gulp-live-server": "0.0.31",
     "gulp-merge-json": "^0.6.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^2.3.2",
+    "gulp-sass": "^3.2.1",
     "gulp-uglify": "^2.1.2",
     "jshint": "^2.9.7",
     "nodemailer": "^2.7.2"
@@ -27,6 +27,10 @@
   },
   "license": "UNLICENSED",
   "dependencies": {
-    "http-proxy-middleware": "^0.19.1"
+    "cryptiles": "^4.1.2",
+    "event-stream": "^3.3.4",
+    "hoek": "^4.2.1",
+    "http-proxy-middleware": "^0.19.1",
+    "node-sass-mac": "^4.7.5"
   }
 }
